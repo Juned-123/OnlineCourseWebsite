@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <div id="head">SignUp</div>
+<form action="./Login.html">
+    <label for="">First Name</label>
+    <input type="text"  placeholder="Enter first name" id="first">
+    <span id="efirst"></span>
+
+    <label for="">Last Name</label>
+    <input type="text"  placeholder="Enter last name" id="last">
+    <span id="elast"></span>
+
+    <label for="">Email</label>
+    <input type="email"  placeholder="Enter email id" id="mail">
+    <span id="email"></span>
+
+    <label for="">Mobile Number</label>
+    <input type="text"  placeholder="Enter Mobile Number" id="mno">
+    <span id="emno"></span>
+
+
+    <p>Select Course</p>
+    <select name="courses" id="cour">
+        <option value="" hidden>Courses</option>
+        <option value="">All</option>
+        <option value="">WebTech</option>
+        <option value="">Java</option>
+        <option value="">Database</option>
+    </select>
+
+
+    <label for="">Create Password</label>
+    <input type="password"  placeholder="Enter password" id="pass">
+    <span id="epass"></span>
+
+    <label for="">Confirm Password</label>
+    <input type="text"  placeholder="Confirm Password" id="cpass">
+    <span id="ecpass"></span>
+
+    <button>Submit</button>
+   
+
+</form>
+
+<script src="./signup.js"></script>
+</body>
+</html>

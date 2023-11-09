@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+  
+
+}
+#head{
+    font-size: 2.5rem;
+    padding-left: 3rem;
+    padding-top: 0.8rem;
+
+    width: 95%; height: 60px; 
+     background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    color: #1d8da6;
+   
+}
+form{
+    margin-top: 2rem;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+
+   
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+   border-radius: 8px;
+
+}
+p{
+    font-size: 1.1rem;
+    margin: 0;
+}
+select{
+    width: 85%;
+    border-radius: 6px;
+    height: 2rem;
+    /* border: 1px solid rgba(8, 78, 101, 0.888); */
+    border: none;
+    padding-left: 1.5rem;
+}
+input{
+    width: 80%;
+    border-radius: 6px;
+    height: 2rem;
+    /* border: 1px solid rgba(8, 78, 101, 0.888); */
+    border: none;
+    padding-left: 1.5rem;
+}
+button{
+    width: 30%;
+    height: 2rem;
+    border-radius: 6px;
+}
+span{
+    color: red;
+    font-weight: 550;
+}
+label{
+   align-items: start;
+}
